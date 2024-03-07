@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fale conosco</h1>
+        <nav>
+            <ul>
+               <li><a href="about.html">Sobre a empresa</a></li>
+              <li><a href="products.html">Produtos</a></li>
+               <li><a href="index.html">Retornar à página principal</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h2>Informações de contato</h2>
+            <p>Telefone: (43) 45655-7890</p>
+            <p>Email: info@petshop.com</p>
+            <h3>Siga-nos em nossas redes sociais:</h3>
+            <ul class="social-media">
+              <li><a href="https://www.facebook.com/petshop/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/petshop/" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/petshop/" target="_blank">Twitter</a></li>
+            </ul>
+        </section>
+        <section class="contact-form">
+            <h2>Envie uma mensagem</h2>
+            <form action="../../contact-form.php" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Petshop. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
